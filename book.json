@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "-lunr", "-search", "search-pro", "chapter-fold", "lightbox"
+    "-lunr", "-search", "search-pro", "chapter-fold"
   ]
 }

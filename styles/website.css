@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.markdown-section #📶-step-by-step-guide~p>a {
+  display: inline-block;
+  width: 45%;
+  height: 50px;
+  margin: 10px;
+  padding: 0 15px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 550;
+  text-decoration: none;
+  color: #000;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px #bbb;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+.markdown-section #📶-step-by-step-guide~p>a:hover {
+  color: #31c77f;
+  border-color: #31c77f;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .markdown-section {
+    padding: 0 10px;
+  }
+  .markdown-section #📶-step-by-step-guide~p>a {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 600px) {
+  .book-summary {
+    width: calc(100% - 200px);
+  }
+  .book.with-summary .book-body {
+    -webkit-transform: translate(calc(100% - 200px),0);
+    -moz-transform: translate(calc(100% - 200px),0);
+    -ms-transform: translate(calc(100% - 200px),0);
+    -o-transform: translate(calc(100% - 200px),0);
+    transform: translate(calc(100% - 200px),0);
+  }
+}

@@ -25,10 +25,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -41,6 +37,8 @@
     
 
     
+        
+        <link rel="stylesheet" href="../styles/website.css">
         
     
         
@@ -860,12 +858,12 @@
                                 <h1 id="&#x1F482;&#x200D;&#x2642;&#xFE0F;-oracle-guard">&#x1F482;&#x200D;&#x2642;&#xFE0F; Oracle Guard</h1>
 <p>Protecting our herd from price divergence</p>
 <hr>
-<p><a href="https://pic.imgdb.cn/item/60f794ae5132923bf89f74c1.png" data-lightbox="5b586f85-a4ff-408b-a4ee-3c7d8994d281" data-title="" target="_blank"><img src="https://pic.imgdb.cn/item/60f794ae5132923bf89f74c1.png" alt=""></a></p>
+<p><img src="https://pic.imgdb.cn/item/60f794ae5132923bf89f74c1.png" alt=""></p>
 <p>Financial markets can be dangerous, my fellow Alpacas, which is why we&#x2019;ve introduced something to protect you in the worst of times, from potential price manipulation, flash liquidation, and market failure. You may get nervous with other farms, but <strong>at Alpaca, you&#x2019;ll never have anything to be nervous about,</strong> because this is much more than a new feature; this, is your new protector &#x2014; the <strong>Oracle Guard.</strong></p>
 <p>Some of you who used our platform may have noticed that certain functions were temporarily grayed-out such as opening positions on certain pairs. This was the Oracle Guard in Protection Mode, <strong>keeping you safe from the dangers of the market.</strong></p>
 <p>To be specific, when the price of an asset in your farming pair has its on-chain price from the exchange that pair is on(PancakeSwap) differ more than 5% from Chainlink price feeds, the Oracle Guard enters Protection Mode; This consists of disabling liquidations, opening and closing positions, and adding collateral; all in order to protect you from trading at bad prices and taking an unjust loss.</p>
 <p>This is also why the Guard turns off adding collateral; After all, Since the LP tokens need their paired assets to be in a 50:50 ratio, the protocol would have to swap some of that added collateral to achieve this even ratio, which would happen at a bad price. So this too is a situation where the Guard is protecting you. In fact, <strong>the Oracle Guard saved a lot of users&#x2019; funds during the May 20th, 2021 market crash.</strong></p>
-<p><a href="https://pic.imgdb.cn/item/60f7aae45132923bf8ee6e11.png" data-lightbox="e1a10890-8d66-4b59-a0be-20b9c6323a9e" data-title="" target="_blank"><img src="https://pic.imgdb.cn/item/60f7aae45132923bf8ee6e11.png" alt=""></a></p>
+<p><img src="https://pic.imgdb.cn/item/60f7aae45132923bf8ee6e11.png" alt=""></p>
 <p>When the entire market flash crashed, the Oracle Guard went into action, protecting many users&#x2019; positions from flash liquidations, allowing them to stay safe and keep farming once prices realigned and the Guard lifted Protection Mode. During this chaotic time, many users were prevented from losing their positions and trading at bad prices.</p>
 <p>Feeling safer already? You should. &#x1F604; The Oracle Guard&#x2019;s Protection Mode acts as an oracle delay, verifying price feeds consistently after activation(verification frequency varies depending on overall market volatility), which prevents large market orders from engaging in price manipulation(such as flash loans or margin orders). When the on-chain price moves far off from where it should be, this delay gives enough time for arb bots to push back that price to realignment either with other exchanges or a peg in the case of stablecoins and other pegged tokens.</p>
 <p><strong>In summary, the Oracle Guard is watching your back.</strong> Yet, when he does activate Protection Mode, you don&#x2019;t have to be worried either, because it&#x2019;s also unlikely to stay on for long. Inevitably, arb bots will soon close the price divergence, letting the Oracle Guard remove his protections and you to return to customizing your position, if you&#x2019;d like.</p>
@@ -928,7 +926,7 @@ How about PancakeBunny&#x2019;s exploit on 5/19/21 for 200M? A flash loan attack
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"💂‍♂️ Oracle Guard","level":"2.5","depth":1,"next":{"title":"🧮 Strategies","level":"2.6","depth":1,"path":"our-protocol/strategies.md","ref":"our-protocol/strategies.md","articles":[{"title":"PancakeSwap Farms","level":"2.6.1","depth":2,"path":"our-protocol/strategies/pancakeswap-farms.md","ref":"our-protocol/strategies/pancakeswap-farms.md","articles":[]},{"title":"WaultSwap Farms","level":"2.6.2","depth":2,"path":"our-protocol/strategies/waultswap-farms.md","ref":"our-protocol/strategies/waultswap-farms.md","articles":[]}]},"previous":{"title":"Move ALPACA-wBNB LP from PCSV1 to PCSV2","level":"2.4.10","depth":2,"path":"our-protocol/step-by-step-guide/move-alpaca-wbnb-lp-from-pcsv1-to-pcsv2.md","ref":"our-protocol/step-by-step-guide/move-alpaca-wbnb-lp-from-pcsv1-to-pcsv2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-lunr","-search","search-pro","chapter-fold","lightbox","livereload"],"pluginsConfig":{"search-pro":{},"chapter-fold":{},"lightbox":{"jquery":true,"sameUuid":false},"livereload":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"our-protocol/oracle-guard.md","mtime":"2021-07-21T05:12:03.949Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-21T07:38:06.739Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"💂‍♂️ Oracle Guard","level":"2.5","depth":1,"next":{"title":"🧮 Strategies","level":"2.6","depth":1,"path":"our-protocol/strategies.md","ref":"our-protocol/strategies.md","articles":[{"title":"PancakeSwap Farms","level":"2.6.1","depth":2,"path":"our-protocol/strategies/pancakeswap-farms.md","ref":"our-protocol/strategies/pancakeswap-farms.md","articles":[]},{"title":"WaultSwap Farms","level":"2.6.2","depth":2,"path":"our-protocol/strategies/waultswap-farms.md","ref":"our-protocol/strategies/waultswap-farms.md","articles":[]}]},"previous":{"title":"Move ALPACA-wBNB LP from PCSV1 to PCSV2","level":"2.4.10","depth":2,"path":"our-protocol/step-by-step-guide/move-alpaca-wbnb-lp-from-pcsv1-to-pcsv2.md","ref":"our-protocol/step-by-step-guide/move-alpaca-wbnb-lp-from-pcsv1-to-pcsv2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-lunr","-search","search-pro","chapter-fold","livereload"],"pluginsConfig":{"search-pro":{},"chapter-fold":{},"livereload":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"our-protocol/oracle-guard.md","mtime":"2021-07-21T05:12:03.949Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-21T09:41:28.721Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -947,10 +945,6 @@ How about PancakeBunny&#x2019;s exploit on 5/19/21 for 200M? A flash loan attack
     
         
         <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
         
     
         
