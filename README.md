@@ -1,7 +1,7 @@
 # 🦙 Alpaca Finance
 Fair-launch leveraged yield farming protocol on Binance Smart Chain
 ***
-![Twitterheader.jpg](https://i.loli.net/2021/07/19/AhVfxvki3JcyOWz.jpg)
+![](https://pic.imgdb.cn/item/60f790bb5132923bf8928900.jpg)
 <p align="center">Let this majestic South American mammal take your yields to new heights</p>   
 
 Alpaca Finance is the largest lending protocol allowing leveraged yield farming on Binance Smart Chain. It helps lenders earn safe and stable yields, and offers borrowers undercollateralized loans for leveraged yield farming positions, vastly multiplying their farming principals and resulting profits.‌
