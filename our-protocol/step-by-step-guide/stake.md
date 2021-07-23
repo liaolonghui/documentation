@@ -51,20 +51,20 @@ Here, we provide a step-by-step guide on how to lend your assets to earn maximum
 * Go to [PancakeSwap](https://pancakeswap.finance/)
 * Click on Add Liquidity
 
-<img src="https://pic.imgdb.cn/item/60f7e8e05132923bf8045b7c.png" width = "280" height = "400" align="center" />
+<img src="https://pic.imgdb.cn/item/60f7e8e05132923bf8045b7c.png" width="280" height="400" align="center" />
 
 * Click **Unlock Wallet** (you may have to wait up to 30 seconds for your balance to be loaded)
 
-<img src="https://pic.imgdb.cn/item/60f7e9035132923bf804e19d.png" width = "280" height = "400" align="center" />
+<img src="https://pic.imgdb.cn/item/60f7e9035132923bf804e19d.png" width="280" height="400" align="center" />
 
 * Specify the amount of BNB / ALPACA you wish to add to the liquidity pool
 * Click **Supply**
 
-<img src="https://pic.imgdb.cn/item/60f7e9655132923bf8065b21.png" width = "280" height = "400" align="center" />
+<img src="https://pic.imgdb.cn/item/60f7e9655132923bf8065b21.png" width="280" height="400" align="center" />
 
 * Review the information and click **Confirm Supply**
 
-<img src="https://pic.imgdb.cn/item/60f7e9845132923bf806d23c.png" width = "280" height = "400" align="center" />
+<img src="https://pic.imgdb.cn/item/60f7e9845132923bf806d23c.png" width="280px" height="400px" align="center" />
 
 * After clicking **Confirm Supply**, you should get a pop-up notification in your MetaMask to accept the transaction. Click **Confirm** and wait for the transaction to be processed.
 * You should receive the LP token in your wallet.
