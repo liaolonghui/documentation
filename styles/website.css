@@ -2,6 +2,28 @@
   box-sizing: border-box;
 }
 
+.markdown-section hr {
+  height: 1px;
+}
+
+.book-summary ul.summary li a,
+.book-summary ul.summary li span {
+  font-weight: 600;
+}
+.book-summary ul.summary li:hover>a {
+  text-decoration: none;
+  background-color: #dfdfdf;
+}
+.book-summary ul.summary li.active>a {
+  color: #31c77f;
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+}
+
+.markdown-section a {
+  color: #31c77f;
+}
+
 .markdown-section #📶-step-by-step-guide~p>a {
   display: inline-block;
   width: 45%;
